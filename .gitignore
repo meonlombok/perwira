@@ -1,0 +1,11 @@
+# Exclude version folders
+Ver1/
+ver2/
+ver1/
+Ver2/
+
+# OS / Temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log

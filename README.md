@@ -13,10 +13,20 @@ Official website for **Perwira Visa** (`perwiravisa.com`). Practical guidance an
 - `index.html` - Homepage
 - `about/` - About Perwira Visa
 - `services/` - Core services (immigration, work, business, property, accounting, business support)
-- `guides/` - Practical guides (moving/living in Lombok, etc.)
+- `guides/` - Practical guides, including the investor starting guide and moving/living in Lombok
 - `faq/` - Frequently Asked Questions
 - `contact/` - Contact & Consultation enquiry form
 - `updates/` - Regulatory Updates
 - `assets/` - CSS, JS modules, icons, optimized WebP images
 - `CNAME` - Custom domain definition (`perwiravisa.com`)
 - `sitemap.xml` & `robots.txt` - Search engine indexing configuration
+
+## Local preview
+
+The active site is static and has no package manager or build step. From the repository root, run:
+
+```powershell
+python -m http.server 8000
+```
+
+Open `http://localhost:8000/` in a browser. The review record for the current content and source checks is in `docs/WEBSITE_REVIEW_2026-09-26.md`.

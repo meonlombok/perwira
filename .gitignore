@@ -4,6 +4,9 @@ ver2/
 ver1/
 Ver2/
 
+# Local documentation
+docs/
+
 # OS / Temporary files
 .DS_Store
 Thumbs.db

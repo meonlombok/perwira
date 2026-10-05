@@ -1,0 +1,47 @@
+name: Generate blog manifest
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "blog/**"
+      - "scripts/generate-blog-manifest.mjs"
+      - ".github/workflows/generate-blog-manifest.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-blog-manifest-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    name: Build posts manifest
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    if: github.actor != 'github-actions[bot]'
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Generate manifest
+        run: node scripts/generate-blog-manifest.mjs
+
+      - name: Commit generated manifest
+        run: |
+          if git diff --quiet -- blog/posts.json; then
+            echo "Blog manifest is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add blog/posts.json
+          git commit -m "chore(blog): Update article manifest"
+          git push

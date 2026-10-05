@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-10-04T23:58:26.183Z",
+  "posts": [
+    {
+      "title": "Can Foreigners Buy Property in Lombok?",
+      "description": "A practical guide to Indonesian property rights for foreigners, covering Hak Pakai, HGB, long-term leases, PMA structures, Lombok thresholds and due diligence.",
+      "date": "2026-10-05",
+      "category": "Property",
+      "published": true,
+      "url": "/blog/foreign-property-lombok/"
+    },
+    {
+      "title": "Long-Term Rental in Lombok: Legal Tips & Traps",
+      "description": "A practical guide for foreigners renting a house or villa long-term in Lombok, covering landlords, bilingual contracts, deposits, leases and handover checks.",
+      "date": "2026-10-05",
+      "category": "Property",
+      "published": true,
+      "url": "/blog/long-term-rental-lombok/"
+    },
+    {
+      "title": "PMA Company Setup in Indonesia: Lombok Guide",
+      "description": "A practical guide to setting up a PT PMA in Indonesia, covering KBLI, capital, shareholders, OSS, NIB, licences and Lombok-specific considerations.",
+      "date": "2026-10-05",
+      "category": "Business",
+      "published": true,
+      "url": "/blog/pma-company-setup/"
+    },
+    {
+      "title": "Indonesia KITAS Guide 2025: Types, Costs & Requirements",
+      "description": "A practical guide to Indonesia KITAS in 2025, covering work, investor, retirement and family permits, documents, application steps, fees and common mistakes.",
+      "date": "2026-10-04",
+      "category": "Immigration",
+      "published": true,
+      "url": "/blog/indonesia-kitas-guide/"
+    },
+    {
+      "title": "Investor KITAS in Indonesia: Requirements, Process & Costs",
+      "description": "A practical 2025 guide to the E28A Investor ITAS in Indonesia, covering company requirements, documents, fees and Lombok-specific checks.",
+      "date": "2026-10-04",
+      "category": "Immigration",
+      "published": true,
+      "url": "/blog/investor-itas-in-indonesia/"
+    }
+  ]
+}

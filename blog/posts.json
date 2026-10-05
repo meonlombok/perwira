@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T06:54:42.844Z",
+  "generatedAt": "2026-10-05T11:13:06.531Z",
   "posts": [
     {
       "title": "Can Foreigners Buy Property in Lombok?",
@@ -8,6 +8,14 @@
       "category": "Property",
       "published": true,
       "url": "/blog/foreign-property-lombok/"
+    },
+    {
+      "title": "Indonesian Tax Residency for Foreigners: 183-Day Rule",
+      "description": "A practical guide to Indonesian tax residency for foreigners, covering the 183-day rule, worldwide income, KITAS, tax treaties, NPWP and reporting.",
+      "date": "2026-10-05",
+      "category": "Tax & Compliance",
+      "published": true,
+      "url": "/blog/indonesian-tax-residency/"
     },
     {
       "title": "Long-Term Rental in Lombok: Legal Tips & Traps",
@@ -48,6 +56,22 @@
       "category": "Immigration",
       "published": true,
       "url": "/blog/investor-itas-in-indonesia/"
+    },
+    {
+      "title": "The Real Annual Cost of Running a PT PMA",
+      "description": "A practical budgeting guide to PT PMA annual costs in Indonesia, covering tax, accounting, LKPM, licences, payroll, property and compliance.",
+      "date": "2026-10-03",
+      "category": "Tax & Compliance",
+      "published": true,
+      "url": "/blog/pt-pma-annual-cost/"
+    },
+    {
+      "title": "Opening a Villa or Guesthouse in Lombok",
+      "description": "A practical guide to opening a villa or guesthouse business in Lombok, covering PT PMA, KBLI, zoning, PBG, SLF, OSS, staffing and licences.",
+      "date": "2026-10-02",
+      "category": "Business",
+      "published": true,
+      "url": "/blog/opening-villa-business-lombok/"
     }
   ]
 }

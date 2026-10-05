@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T01:11:08.639Z",
+  "generatedAt": "2026-10-05T06:50:02.825Z",
   "posts": [
     {
       "title": "Can Foreigners Buy Property in Lombok?",
@@ -24,6 +24,14 @@
       "category": "Business",
       "published": true,
       "url": "/blog/pma-company-setup/"
+    },
+    {
+      "title": "PMA Property Ownership in Lombok: Land, HGB & Lease",
+      "description": "A practical guide to using a PT PMA to hold or lease property in Lombok, covering HGB, HGU, capital, acquisition steps, tax and compliance.",
+      "date": "2026-10-05",
+      "category": "Property",
+      "published": true,
+      "url": "/blog/pma-property-ownership-lombok/"
     },
     {
       "title": "Indonesia KITAS Guide 2025: Types, Costs & Requirements",

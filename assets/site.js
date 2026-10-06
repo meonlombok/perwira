@@ -71,7 +71,7 @@
   if (!document.querySelector(".gtranslate_wrapper")) {
     const wrapper = document.createElement("div");
     wrapper.className = "gtranslate_wrapper";
-    document.querySelector(".header-inner")?.append(wrapper);
+    document.querySelector(".mobile-toggle")?.before(wrapper);
   }
   if (!window.gtranslateSettings) {
     window.gtranslateSettings = {

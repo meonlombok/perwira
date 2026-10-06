@@ -68,26 +68,31 @@
       '<svg class="icon nav-icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>Blog';
     footerBlogColumn.append(blogLink);
   }
-  if (!document.querySelector(".gtranslate_wrapper")) {
+  const translatorMedia = matchMedia("(max-width: 1050px)");
+  const translatorSettings = (isMobile) => ({
+    default_language: "en",
+    detect_browser_language: true,
+    languages: ["en", "fr", "it", "es", "ru", "id"],
+    wrapper_selector: ".gtranslate_wrapper",
+    switcher_horizontal_position: "right",
+    ...(isMobile ? {} : { switcher_vertical_position: "top" }),
+    float_switcher_open_direction: "bottom",
+  });
+  const mountTranslator = () => {
+    document.querySelector(".gtranslate_wrapper")?.remove();
+    document.querySelector("#gt_float_wrapper")?.remove();
+    document.querySelector(".gtranslate_css")?.remove();
     const wrapper = document.createElement("div");
     wrapper.className = "gtranslate_wrapper";
-    document.querySelector(".mobile-toggle")?.before(wrapper);
-  }
-  if (!window.gtranslateSettings) {
-    window.gtranslateSettings = {
-      default_language: "en",
-      detect_browser_language: true,
-      languages: ["en", "fr", "it", "es", "ru", "id"],
-      wrapper_selector: ".gtranslate_wrapper",
-      switcher_horizontal_position: "right",
-      switcher_vertical_position: "top",
-      float_switcher_open_direction: "bottom",
-    };
+    document.body.append(wrapper);
+    window.gtranslateSettings = translatorSettings(translatorMedia.matches);
     const translator = document.createElement("script");
     translator.src = "https://cdn.gtranslate.net/widgets/latest/float.js";
     translator.defer = true;
-    document.head.append(translator);
-  }
+    document.body.append(translator);
+  };
+  mountTranslator();
+  translatorMedia.addEventListener("change", mountTranslator);
   const compactToc = matchMedia("(max-width: 850px)");
   const setToc = () =>
     document.querySelectorAll(".toc-disclosure").forEach((el) => {

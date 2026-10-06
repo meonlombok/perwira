@@ -48,16 +48,7 @@ textarea {
   gap: 22px;
 }
 #gt_float_wrapper {
-  right: max(22px, calc((100vw - var(--max)) / 2 + 48px)) !important;
-}
-@media (max-width: 1050px) {
-  #gt_float_wrapper {
-    right: max(100px, calc((100vw - var(--max)) / 2 + 48px)) !important;
-  }
-
-  .gtranslate_wrapper + .mobile-toggle {
-    margin-left: auto;
-  }
+  right: 22px !important;
 }
 .desktop-nav {
   gap: 25px;
@@ -1694,5 +1685,10 @@ address {
   }
   * {
     scroll-behavior: auto !important;
+  }
+}
+@media (min-width: 1051px) {
+  .desktop-nav {
+    margin-right: 140px;
   }
 }

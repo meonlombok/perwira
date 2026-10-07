@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T11:13:19.067Z",
+  "generatedAt": "2026-10-07T03:17:32.683Z",
   "posts": [
     {
       "title": "Can Foreigners Buy Property in Lombok?",
@@ -72,6 +72,30 @@
       "category": "Business",
       "published": true,
       "url": "/blog/opening-villa-business-lombok/"
+    },
+    {
+      "title": "Can a Foreign Director Work in Their PT PMA?",
+      "description": "A practical guide to Investor ITAS, director duties, RPTKA, DKPTKA, operational work, remuneration and licensing for foreign PT PMA directors.",
+      "date": "2026-10-01",
+      "category": "Business & Immigration",
+      "published": true,
+      "url": "/blog/foreign-director-pma-work/"
+    },
+    {
+      "title": "Foreigners Married to Indonesians: KITAS, Property & Inheritance",
+      "description": "A practical guide to mixed marriage in Indonesia, covering spouse KITAS, ITAP, work, property, prenup, postnup, children, tax and inheritance.",
+      "date": "2026-10-01",
+      "category": "Immigration & Family",
+      "published": true,
+      "url": "/blog/foreign-indonesian-marriage/"
+    },
+    {
+      "title": "NIB Is Not the Final Licence: PT PMA Operating Requirements",
+      "description": "A practical guide to what a PT PMA may still need after receiving an NIB, including KBLI, Standard Certificates, zoning, PBG, SLF, environment, tax and staffing.",
+      "date": "2026-09-30",
+      "category": "Business & Compliance",
+      "published": true,
+      "url": "/blog/nib-final-licence/"
     }
   ]
 }

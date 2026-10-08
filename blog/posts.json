@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T03:25:12.473Z",
+  "generatedAt": "2026-10-08T04:54:46.849Z",
   "posts": [
     {
       "title": "Can Foreigners Buy Property in Lombok?",
@@ -96,6 +96,22 @@
       "category": "Business & Compliance",
       "published": true,
       "url": "/blog/nib-final-licence/"
+    },
+    {
+      "title": "PT PMA Compliance Checklist After Incorporation",
+      "description": "A month-by-month compliance checklist for PT PMA foreign investors, covering accounting, tax, LKPM, OSS, licences, BPJS, payroll and annual governance.",
+      "date": "2026-09-29",
+      "category": "Business & Compliance",
+      "published": true,
+      "url": "/blog/pma-compliance-checklist/"
+    },
+    {
+      "title": "How to Choose the Right KBLI for a PT PMA",
+      "description": "A practical guide to choosing KBLI for a PT PMA, covering foreign ownership, risk-based licensing, investment value, OSS updates and Lombok business examples.",
+      "date": "2026-09-28",
+      "category": "Business & Compliance",
+      "published": true,
+      "url": "/blog/choose-kbli-pma/"
     }
   ]
 }

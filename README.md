@@ -23,7 +23,7 @@ Official website for **Perwira Visa** (`perwiravisa.com`). Practical guidance an
 
 ## Local preview
 
-The active site is static and has no package manager or build step. From the repository root, run:
+The deployed site is static. New Markdown-source blog articles use the optional [blog generator workflow](scripts/BLOG.md) (`npm ci`, `npm run build`, `npm test`); existing HTML pages require no build. From the repository root, run:
 
 ```powershell
 python -m http.server 8000

@@ -12,3 +12,4 @@ docs/
 Thumbs.db
 *.tmp
 *.log
+node_modules/

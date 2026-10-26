@@ -1,0 +1,17 @@
+{
+  "name": "perwiravisa-static-blog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-blog.mjs",
+    "test": "node --test scripts/blog.test.mjs"
+  },
+  "dependencies": {
+    "markdown-it": "15.0.3",
+    "yaml": "2.9.1"
+  },
+  "devDependencies": {
+    "cheerio": "1.2.0",
+    "fast-xml-parser": "5.11.2"
+  }
+}
